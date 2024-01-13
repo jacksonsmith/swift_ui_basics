@@ -2,6 +2,13 @@
 
 Welcome to your SwiftUI Learning Project! This project is designed to help you explore and master SwiftUI concepts, including Text Field, Bindings, Image, Texts, Tab, and VStack. Whether you're a beginner or looking to enhance your SwiftUI skills, this project will guide you through various aspects of SwiftUI development.
 
+![Simulator Screenshot - iPhone 14 - 2024-01-13 at 18 51 11](https://github.com/jacksonsmith/swift_ui_basics/assets/16623863/ea962de2-08b8-473b-a3c7-f77106a6250f)
+![Simulator Screenshot - iPhone 14 - 2024-01-13 at 18 51 01](https://github.com/jacksonsmith/swift_ui_basics/assets/16623863/550a9632-1296-42b6-be0f-fd17108dfd7d)
+![Simulator Screenshot - iPhone 14 - 2024-01-13 at 18 50 57](https://github.com/jacksonsmith/swift_ui_basics/assets/16623863/89a443e3-bdac-4f95-a81c-add25e2c7c3a)
+
+
+
+
 ## Project Overview
 
 In this project, you'll be working with several key SwiftUI components:
