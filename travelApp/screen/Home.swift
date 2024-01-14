@@ -13,7 +13,9 @@ struct HomeScreen: View {
     var body: some View {
         VStack() {
             HomeHeader()
-        }
+        }.frame(
+            maxWidth: .infinity, maxHeight: .infinity, alignment: .top
+        )
     }
 }
 
