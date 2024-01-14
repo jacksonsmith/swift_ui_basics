@@ -17,6 +17,7 @@
 		0F7357C62B530FF00069466E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357C52B530FEF0069466E /* Tab.swift */; };
 		0F7357C92B5310F80069466E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357C82B5310F80069466E /* Home.swift */; };
 		0F7357CB2B5311B80069466E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357CA2B5311B80069466E /* Search.swift */; };
+		0F7357CD2B547E440069466E /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357CC2B547E440069466E /* Generic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0F7357C52B530FEF0069466E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		0F7357C82B5310F80069466E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0F7357CA2B5311B80069466E /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		0F7357CC2B547E440069466E /* Generic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				0F7357C52B530FEF0069466E /* Tab.swift */,
 				0F7357C82B5310F80069466E /* Home.swift */,
 				0F7357CA2B5311B80069466E /* Search.swift */,
+				0F7357CC2B547E440069466E /* Generic.swift */,
 			);
 			path = screen;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				0F7357CB2B5311B80069466E /* Search.swift in Sources */,
 				0F7357C92B5310F80069466E /* Home.swift in Sources */,
 				0F73579A2B52D9180069466E /* travelAppApp.swift in Sources */,
+				0F7357CD2B547E440069466E /* Generic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

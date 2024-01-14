@@ -9,19 +9,32 @@ import SwiftUI
 
 struct CustomTabView: View {
     let homeTabLabel = "Home"
-    let homeSystemImage = "house"
-    let searchTabLabel = "Search"
-    let searchSystemImage = "magnifyingglass"
-
+    let homeImage = "homeIcon"
+    
+    let lessonsTabLabel = "Lessons"
+    let lessonsImage = "lessonsIcon"
+    
+    let meditationTabLabel = "Meditation"
+    let meditationImage = "meditationIcon"
+    
+    let profileTabLabel = "Profile"
+    let profileImage = "profileIcon"
+    
     
     var body: some View {
         TabView {
-            HomeScreen().tabItem {
-                Label(homeTabLabel, systemImage: homeSystemImage)
+            GenericScreen(title: homeTabLabel).tabItem {
+                Label(homeTabLabel, image: homeImage)
             }
-            SearchScreen().tabItem {
-                Label(searchTabLabel, systemImage: searchSystemImage)
-                }
+            GenericScreen(title: lessonsTabLabel).tabItem {
+                Label(lessonsTabLabel, image: lessonsImage)
+            }
+            GenericScreen(title: meditationTabLabel).tabItem {
+                Label(meditationTabLabel, image: meditationImage)
+            }
+            GenericScreen(title: profileTabLabel).tabItem {
+                Label(profileTabLabel, image: profileImage)
+            }
         }
     }
 }
