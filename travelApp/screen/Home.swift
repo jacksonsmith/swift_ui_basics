@@ -11,9 +11,8 @@ struct HomeScreen: View {
     let homeTitle = "This is home screen"
     
     var body: some View {
-        VStack {
-            Image(systemName: "suv.side.fill")
-            Text(homeTitle).bold()
+        VStack() {
+            HomeHeader()
         }
     }
 }

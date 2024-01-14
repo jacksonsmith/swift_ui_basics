@@ -23,7 +23,7 @@ struct CustomTabView: View {
     
     var body: some View {
         TabView {
-            GenericScreen(title: homeTabLabel).tabItem {
+            HomeScreen().tabItem {
                 Label(homeTabLabel, image: homeImage)
             }
             GenericScreen(title: lessonsTabLabel).tabItem {
