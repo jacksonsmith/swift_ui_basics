@@ -23,13 +23,36 @@ struct HomeHeader: View {
     let headerImageName = "homeHeaderImage"
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Image(headerImageName)
-                .frame(width: imageWidth, height: imageHeight)
-                .shadow(color: Color.black.opacity(imageOpacity), radius: imageRadius, x: imageShadowX, y: imageShadowY)
-                .background(Rectangle().fill(imageBackgroundColor))
-                .cornerRadius(imageCornerRadius)
+        ZStack(alignment: .topLeading) {
+            VStack(alignment: .leading) {
+                Image(headerImageName)
+                    .frame(width: imageWidth, height: imageHeight)
+                    .shadow(color: Color.black.opacity(imageOpacity), radius: imageRadius, x: imageShadowX, y: imageShadowY)
+                    .background(Rectangle().fill(imageBackgroundColor))
+                    .cornerRadius(imageCornerRadius)
+            }
+            .frame(width: headerWidth, height: headerHeight)
+            VStack (alignment: .leading) {
+                Text("7 Days")
+                    .font(.caption)
+                    .foregroundColor(.white)
+                Text("Love and AcceptYourself")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .padding(.top, 7.0)
+                    .padding(.trailing, 123.0)
+                    .lineLimit(2)
+                Image("homeNatureHeaderImage")
+                    .padding(.top, 14.0)
+            }
+            .padding(.leading, 16.0)
+            .padding(.top, 40.0)
         }
-        .frame(width: headerWidth, height: headerHeight)
+    }
+}
+
+struct HomeHeader_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeHeader()
     }
 }
