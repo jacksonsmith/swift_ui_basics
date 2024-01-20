@@ -20,6 +20,7 @@
 		0F7357CD2B547E440069466E /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357CC2B547E440069466E /* Generic.swift */; };
 		0F7357D02B5481720069466E /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357CF2B5481720069466E /* HomeHeader.swift */; };
 		7A05FC212B5C72E700E7D497 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A05FC202B5C72E700E7D497 /* GameCard.swift */; };
+		7AB036E32B5C927E0001801F /* GameCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB036E22B5C927E0001801F /* GameCardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		0F7357CC2B547E440069466E /* Generic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
 		0F7357CF2B5481720069466E /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		7A05FC202B5C72E700E7D497 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
+		7AB036E22B5C927E0001801F /* GameCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				0F7357CF2B5481720069466E /* HomeHeader.swift */,
 				7A05FC202B5C72E700E7D497 /* GameCard.swift */,
+				7AB036E22B5C927E0001801F /* GameCardViewModel.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				0F7357D02B5481720069466E /* HomeHeader.swift in Sources */,
 				7A05FC212B5C72E700E7D497 /* GameCard.swift in Sources */,
 				0F73579A2B52D9180069466E /* travelAppApp.swift in Sources */,
+				7AB036E32B5C927E0001801F /* GameCardViewModel.swift in Sources */,
 				0F7357CD2B547E440069466E /* Generic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

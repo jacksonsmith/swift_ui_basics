@@ -8,25 +8,39 @@
 import SwiftUI
 
 struct GameCard: View {
+    var viewModel = GameCardViewModel()
+
     var body: some View {
-        HStack {
-            Text("👻")
-                .background {
-                    Rectangle()
-                        .fill(Color.white)
+        if (viewModel.isFlipped) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10.0)
+                    .foregroundColor(.white)
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(lineWidth: 4.0)
+                    .foregroundColor(.orange)
+                Text("👻")
+                    .font(.largeTitle)
+            }
+            .padding()
+            .onTapGesture {
+                print("tap")
+                self.viewModel.flip()
+            }
+        } else {
+            RoundedRectangle(cornerRadius: 10.0)
+                .foregroundColor(.orange)
+                .onTapGesture {
+                    print("tap")
+                    self.viewModel.flip()
                 }
-                .font(.largeTitle)
-                .border(.orange)
-                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }
 
 struct GameCard_Previews: PreviewProvider {
+
     static var previews: some View {
-        HStack() {
-            GameCard()
-        }
+        GameCard()
+            .frame(width: 200, height: 200)
     }
 }
