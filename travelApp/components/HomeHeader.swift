@@ -42,11 +42,13 @@ struct HomeHeader: View {
                     .padding(.top, 7.0)
                     .padding(.trailing, 123.0)
                     .lineLimit(2)
-                Image("homeNatureHeaderImage")
-                    .padding(.top, 14.0)
             }
             .padding(.leading, 16.0)
             .padding(.top, 40.0)
+//            HStack(alignment: .bottom) {
+//                Image("homeNatureHeaderImage")
+//                    .padding(.top, 14.0)
+//            }
         }
     }
 }
