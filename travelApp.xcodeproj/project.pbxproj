@@ -21,6 +21,11 @@
 		0F7357D02B5481720069466E /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7357CF2B5481720069466E /* HomeHeader.swift */; };
 		7A05FC212B5C72E700E7D497 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A05FC202B5C72E700E7D497 /* GameCard.swift */; };
 		7AB036E32B5C927E0001801F /* GameCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB036E22B5C927E0001801F /* GameCardViewModel.swift */; };
+		7AC8C6262B79962C00DF7FCB /* PopularList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C6252B79962C00DF7FCB /* PopularList.swift */; };
+		7AC8C6292B79993C00DF7FCB /* PopularCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C6282B79993C00DF7FCB /* PopularCourse.swift */; };
+		7AC8C62B2B799CDD00DF7FCB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C62A2B799CDD00DF7FCB /* CardView.swift */; };
+		7AC8C62D2B799E7000DF7FCB /* PopularCourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C62C2B799E7000DF7FCB /* PopularCourseCard.swift */; };
+		7AC8C6302B79A23600DF7FCB /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C62F2B79A23600DF7FCB /* ColorUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		0F7357CF2B5481720069466E /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		7A05FC202B5C72E700E7D497 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
 		7AB036E22B5C927E0001801F /* GameCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardViewModel.swift; sourceTree = "<group>"; };
+		7AC8C6252B79962C00DF7FCB /* PopularList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularList.swift; sourceTree = "<group>"; };
+		7AC8C6282B79993C00DF7FCB /* PopularCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCourse.swift; sourceTree = "<group>"; };
+		7AC8C62A2B799CDD00DF7FCB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7AC8C62C2B799E7000DF7FCB /* PopularCourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCourseCard.swift; sourceTree = "<group>"; };
+		7AC8C62F2B79A23600DF7FCB /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,8 @@
 		0F7357982B52D9180069466E /* travelApp */ = {
 			isa = PBXGroup;
 			children = (
+				7AC8C62E2B79A18C00DF7FCB /* utils */,
+				7AC8C6272B79992700DF7FCB /* model */,
 				0F7357CE2B5481640069466E /* components */,
 				0F7357C72B5310E90069466E /* screen */,
 				0F7357992B52D9180069466E /* travelAppApp.swift */,
@@ -162,8 +174,27 @@
 				0F7357CF2B5481720069466E /* HomeHeader.swift */,
 				7A05FC202B5C72E700E7D497 /* GameCard.swift */,
 				7AB036E22B5C927E0001801F /* GameCardViewModel.swift */,
+				7AC8C6252B79962C00DF7FCB /* PopularList.swift */,
+				7AC8C62A2B799CDD00DF7FCB /* CardView.swift */,
+				7AC8C62C2B799E7000DF7FCB /* PopularCourseCard.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		7AC8C6272B79992700DF7FCB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7AC8C6282B79993C00DF7FCB /* PopularCourse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7AC8C62E2B79A18C00DF7FCB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				7AC8C62F2B79A23600DF7FCB /* ColorUtils.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,14 +327,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC8C6302B79A23600DF7FCB /* ColorUtils.swift in Sources */,
 				0F7357C62B530FF00069466E /* Tab.swift in Sources */,
 				0F73579C2B52D9180069466E /* ContentView.swift in Sources */,
 				0F7357CB2B5311B80069466E /* Search.swift in Sources */,
+				7AC8C6262B79962C00DF7FCB /* PopularList.swift in Sources */,
+				7AC8C62D2B799E7000DF7FCB /* PopularCourseCard.swift in Sources */,
+				7AC8C6292B79993C00DF7FCB /* PopularCourse.swift in Sources */,
 				0F7357C92B5310F80069466E /* Home.swift in Sources */,
 				0F7357D02B5481720069466E /* HomeHeader.swift in Sources */,
 				7A05FC212B5C72E700E7D497 /* GameCard.swift in Sources */,
 				0F73579A2B52D9180069466E /* travelAppApp.swift in Sources */,
 				7AB036E32B5C927E0001801F /* GameCardViewModel.swift in Sources */,
+				7AC8C62B2B799CDD00DF7FCB /* CardView.swift in Sources */,
 				0F7357CD2B547E440069466E /* Generic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
