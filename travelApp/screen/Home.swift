@@ -16,8 +16,16 @@ struct HomeScreen: View {
     ]
     
     var body: some View {
-        VStack() {
-            HomeHeader()
+        HomeHeader()
+        VStack(alignment: .leading) {
+            HStack {
+                Text("Popular")
+                Spacer()
+                Button("Ver Todos", role: .none) {
+                    print("Tapped see all")
+                }
+            }
+            .padding()
             PopularList(popularList: popularList)
         }.frame(
             maxWidth: .infinity, maxHeight: .infinity, alignment: .top
